@@ -1,4 +1,3 @@
-import { Text } from "react-native"
 import React from 'react';
 import useNetworkInfo from "../hooks/useNetworkInfo";
 import NetworkIcon from "./icon/NetworkIcon";
