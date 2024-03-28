@@ -1,6 +1,7 @@
 import React from 'react';
 import { SafeAreaView, StyleSheet, Text } from 'react-native';
 import Operation from '../components/Operation';
+import NetworkInfo from '../components/NetworkInfo';
 
 const styles = StyleSheet.create({
   body: {
@@ -22,6 +23,7 @@ function HomeScreen(){
                 Hinfact
                 <Text style={styles.bold}>Calc</Text>
             </Text>
+            <NetworkInfo/>
             <Operation />
         </SafeAreaView>
     )
