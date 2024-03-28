@@ -1,4 +1,5 @@
 import { StyleSheet, TextInput } from "react-native"
+import React from 'react';
 
 const OperandInputStyle = (operand: string) => StyleSheet.create(({
     operandInput : {
